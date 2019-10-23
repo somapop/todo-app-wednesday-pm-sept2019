@@ -12,9 +12,9 @@ class App extends React.Component {
         <Header />
         <AddItem />
         <ItemCount count={6} />
-        <Item text="wine" quantity={4} bought={true} />
-        <Item text="cheese" quantity={10} bought={false} />
-        <Item text="biscuits" quantity={5} bought={false} />
+        <Item text="buy bin liners" completed={true} />
+        <Item text="walk the cat" completed={false} />
+        <Item text="brush the cat" quantity={5} completed={false} />
       </div>
     );
   }
